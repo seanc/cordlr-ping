@@ -5,14 +5,13 @@
 ## Installation
 
 ```sh
-$ npm install --save cordlr-ping
+$ cordlr install cordlr-ping
 ```
 
 ## Usage
 
-```js
-var cordlrPing = require('cordlr-ping');
-cordlrPing();
+```
+ping
 ```
 
 ## License
