@@ -8,7 +8,7 @@ function ping(bot, config) {
     const res = pixie.render(format, {
       ping: (now - message.timestamp)
     });
-    if (config.ping.mention) message.reply(res)
+    if (config.mention) message.reply(res)
     else message.channel.sendMessage(res);
   }
 }
